@@ -5,6 +5,7 @@
 # tldr 		- better man
 # fzf 		- cli fuzzy finder
 # ripgrep 	- better grep
+# wl-clipboard 	- clipboard utility
 # rofi-wayland	- application launcher
 # btop 		- monitor of resources
 # bc 		- basic-calulator
@@ -14,7 +15,8 @@
 # npm		- node package manager
 # python-pip 	- pip python package manager
 
-paru -S --nonconfirm --needed gimp tldr fzf ripgrep rofi-wayland btop bc stylua prettier node npm python-pip
+paru -S --noconfirm --needed gimp tldr fzf ripgrep wl-clipboard rofi-wayland 
+paru -S --noconfirm --needed btop bc stylua prettier node npm python-pip
 
 # live reload for GO apps (web i guess)
 go install github.com/air-verse/air@latest

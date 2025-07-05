@@ -47,3 +47,7 @@ addToPathFront /usr/local/go/bin
 addToPath $HOME/.cargo/bin
 addToPath $HOME/.local/personal
 
+
+
+# fix audio (very personal)
+~/.local/scripts/audiofix

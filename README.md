@@ -24,6 +24,7 @@ This can be done with this command **while in the root of this repository** (`~/
 DEV_ENV=$(pwd) ./<script>
 ```
 *Replace <script> with `dev-env`, `run`, or `init`.*
+You can also run `dev-env` and `run` with a `--dry` flag at the end of the command to see what's going to happen.
 
 ### Credit
 Based on ThePrimeagen's [dev](https://github.com/ThePrimeagen/dev)

@@ -3,6 +3,8 @@
 #  Ctrl+Shift+,  #
 ##################
 
+font-size = 20
+
 theme = rose-pine-moon
 background = 000000
 background-opacity = 0.85

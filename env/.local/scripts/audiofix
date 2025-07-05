@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+# Set headphones
+pactl set-default-sink alsa_output.usb-Logitech_PRO_X_000000000000-00.analog-stereo
+
+# Set microphone
+pactl set-default-source alsa_input.usb-HP__Inc_HyperX_DuoCast_202011110001-00.analog-stereo
+
