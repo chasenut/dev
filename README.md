@@ -5,7 +5,7 @@ Using Wayland with Hyprland and **NeoVim** ofc.
 
 
 <p align="center">
-<img src="images/handshake.png" alt="arch-neovim-handshake" style="height=400">
+<img src="images/handshake.png" alt="arch-neovim-handshake" style="height=300">
 </p>
 
 ---
