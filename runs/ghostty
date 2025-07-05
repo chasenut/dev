@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+# ghostty 		- terminal emulator
+paru -S ghostty --noconfirm --needed

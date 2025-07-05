@@ -1,0 +1,44 @@
+#!/usr/bin/env bash
+
+# EXPLANATION
+# gimp 		- GNU Image Manipulation Program
+# tldr 		- better man
+# fzf 		- cli fuzzy finder
+# ripgrep 	- better grep
+# rofi-wayland	- application launcher
+# btop 		- monitor of resources
+# bc 		- basic-calulator
+# stylua 	- code formatter for lua
+# prettier 	- code formatter for other langs
+# node 		- node (js)
+# npm		- node package manager
+# python-pip 	- pip python package manager
+
+paru -S --nonconfirm --needed gimp tldr fzf ripgrep rofi-wayland btop bc stylua prettier node npm python-pip
+
+# live reload for GO apps (web i guess)
+go install github.com/air-verse/air@latest
+
+# waybar 	- status bar
+# + some fonts
+paru -S ttf-font-awesome waybar ttf-jetbrains-mono-nerd ttf-nerd-fonts-symbols
+
+# hyprlock 	- lock screen
+paru -S hyprlock --noconfirm --needed
+
+# ghostty 	- terminal emulator
+paru -S ghostty
+
+# hyprshot 	- to make screenshots
+# hyprpaper 	- wallpaper utility
+paru -S hyprpaper hyprshot
+
+# wlogout-git 	- logout menu
+paru -Syu wlogout-git --noconfirm --needed
+
+# ffmpeg 	- audio files and records utility
+# aalib 	- ASCII art graphics library
+# ascii-im... 	- converts images to ASCII
+paru -S ffmpeg aalib ascii-image-converter-bin --noconfirm
+
+

@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+# gdb 		- GNU Project Debugger
+# 	used for debugging C, C++, Rust etc.	
+bash -c "$(curl -fsSL https://gef.blah.cat/sh)"
