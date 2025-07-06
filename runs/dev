@@ -15,10 +15,12 @@
 # npm		- node package manager
 # python-pip 	- pip python package manager
 # pavucontrol - audio control
+# imv       - image viewer for wayland (imv <path>)
+# gthumb    - better image viewer + file explorer
 
 paru -S --noconfirm --needed gimp tldr fzf ripgrep wl-clipboard rofi-wayland 
 paru -S --noconfirm --needed btop bc stylua prettier node npm python-pip
-paru -S --noconfirm --needed pavucontrol
+paru -S --noconfirm --needed pavucontrol imv gthumb
 
 # live reload for GO apps (web i guess)
 go install github.com/air-verse/air@latest

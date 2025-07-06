@@ -26,5 +26,20 @@ DEV_ENV=$(pwd) ./<script>
 *Replace <script> with `dev-env`, `run`, or `init`.*
 You can also run `dev-env` and `run` with a `--dry` flag at the end of the command to see what's going to happen.
 
+### Sound
+You can use `pavucontrol` for sound management. I'm also using script `audiofix` located in
+`env/.local/scripts/audiofix` (in this repo).
+It is being run from the bottom of `.zsh_profile` which you can find in `env/`.
+
+### Wallpapers
+This setup is using `hyprpaper` for handling wallpapers. Check out the `env/.config/hypr/hyprpaper.conf` 
+config to make sure you have set proper wallpaper paths or none. You can also switch wallpapers
+very easily using `setbg` command, which is located in `env/.local/scripts/setbg`.
+It opens a `fzf` menu where you can select wallpaper from `$HOME/personal/wallpapers/` directory.
+
+### Greeter SDDM
+If you are using SDDM as your greeter, you may also want to make it nice looking.
+I can recommend [this SilentSDDM theme](https://github.com/uiriansan/SilentSDDM).
+
 ### Credit
-Based on ThePrimeagen's [dev](https://github.com/ThePrimeagen/dev)
+Inspired by ThePrimeagen's [dev](https://github.com/ThePrimeagen/dev)
