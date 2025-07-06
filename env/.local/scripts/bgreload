@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+hyprpaper
+hyprctl hyprpaper reload ,"$HOME/personal/wallpapers/default.jpg"
