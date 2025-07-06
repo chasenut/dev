@@ -14,9 +14,11 @@
 # node 		- node (js)
 # npm		- node package manager
 # python-pip 	- pip python package manager
+# pavucontrol - audio control
 
 paru -S --noconfirm --needed gimp tldr fzf ripgrep wl-clipboard rofi-wayland 
 paru -S --noconfirm --needed btop bc stylua prettier node npm python-pip
+paru -S --noconfirm --needed pavucontrol
 
 # live reload for GO apps (web i guess)
 go install github.com/air-verse/air@latest
