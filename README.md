@@ -39,7 +39,8 @@ It opens a `fzf` menu where you can select wallpaper from `$HOME/personal/wallpa
 
 ### Greeter SDDM
 If you are using SDDM as your greeter, you may also want to make it nice looking.
-I can recommend [this SilentSDDM theme](https://github.com/uiriansan/SilentSDDM).
+I can recommend [sddm-astronaut-theme](https://github.com/Keyitdev/sddm-astronaut-theme).
+*With bigger display resolution you may need to tinker a little bit with font size in cofing*
 
 ### Credit
 Inspired by ThePrimeagen's [dev](https://github.com/ThePrimeagen/dev)
