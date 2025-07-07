@@ -1,9 +1,9 @@
 * {
   font-family: JetbrainsMono Nerd Font;
-  font-size: 16px;
+  font-size: 14px;
   min-height: 0;
-  padding-right: 2px;
-  padding-left: 2px;
+  padding-right: 4px;
+  padding-left: 4px;
   padding-bottom: 0px;
 }
 
@@ -50,7 +50,7 @@
   background-color: #101010;
   padding: 0.5rem 1rem;
   margin: 5px 0;
-  border-radius: 0px 5px 5px 0px;
+  border-radius: 0px 0px 0px 0px;
 }
 
 #custom-stream_status {
@@ -73,7 +73,7 @@
 }
 
 #memory {
-  border-radius: 0px 5px 5px 0px;
+  border-radius: 0px 0px 0px 0px;
 }
 
 #clock {
@@ -115,13 +115,13 @@
 }
 
 #custom-lock {
-  border-radius: 5px 0px 0px 5px;
+  border-radius: 0px 5px 5px 0px;
   color: #babbf1;
 }
 
 #custom-power {
   margin-right: 1rem;
-  border-radius: 0px 5px 5px 0px;
+  border-radius: 5px 5px 5px 5px;
   color: #e78284;
 }
 

@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
 
-hyprpaper
-hyprctl hyprpaper reload ,"$HOME/personal/wallpapers/default.jpg"
+WALLPAPER_PATH = "~/personal/wallpapers/default.jpg"
+hyprctl hyprpaper unload all
+hyprctl hyprpaper preload $WALLPAPER_PATH
+hyprctl hyprpaper wallpaper ", $WALLPAPER_PATH"
