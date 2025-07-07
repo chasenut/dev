@@ -1,0 +1,24 @@
+#!/usr/bin/env bash
+
+# Default destination for system-wide fonts
+DEST_DIR="/usr/share/fonts"
+
+# Optional: override destination with environment variable
+# Example: FONT_DEST=/your/path ./install-fonts.sh
+DEST_DIR="${FONT_DEST:-$DEST_DIR}"
+
+# Ensure destination exists
+if [ ! -d "$DEST_DIR" ]; then
+    echo "Destination directory does not exist: $DEST_DIR"
+    exit 1
+fi
+
+# Copy fonts from ./fonts to destination
+echo "Copying fonts to $DEST_DIR..."
+find ./fonts -type f \( -iname "*.ttf" -o -iname "*.otf" \) -exec sudo cp {} "$DEST_DIR" \;
+
+# Refresh font cache
+echo "Updating font cache..."
+sudo fc-cache -f -v
+
+echo "✅ Fonts installed successfully to $DEST_DIR"
