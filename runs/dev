@@ -36,8 +36,10 @@ paru -S hyprlock --noconfirm --needed
 paru -S ghostty
 
 # hyprshot 	- to make screenshots
-# hyprpaper 	- wallpaper utility
-paru -S hyprpaper hyprshot
+paru -S hyprshot
+
+# swaybg 	- wallpaper utility
+pacman -S swaybg
 
 # wlogout-git 	- logout menu
 paru -Syu wlogout-git --noconfirm --needed

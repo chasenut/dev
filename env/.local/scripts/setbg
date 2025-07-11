@@ -18,6 +18,7 @@ fi
 WALLPAPER_PATH="$WALLPAPER_DIR/$SELECTED"
 
 # Reload wallpaper
-hyprctl hyprpaper unload all
-hyprctl hyprpaper preload $WALLPAPER_PATH
-hyprctl hyprpaper wallpaper ", $WALLPAPER_PATH"
+nohup swaybg -m fill -i $WALLPAPER_PATH &
+disown
+
+echo "🎉 Wallpaper changed to: $SELECTED"

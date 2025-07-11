@@ -5,7 +5,7 @@ Using Wayland with Hyprland and **NeoVim** ofc.
 
 
 <p align="center">
-<img src="images/handshake.png" alt="arch-neovim-handshake" style="height=300">
+<img src="images/handshake.png" alt="arch-neovim-handshake" style="height=200">
 </p>
 
 ## Usage
@@ -32,10 +32,16 @@ You can use `pavucontrol` for sound management. I'm also using script `audiofix`
 It is being run from the bottom of `.zsh_profile` which you can find in `env/`.
 
 ### Wallpapers
-This setup is using `hyprpaper` for handling wallpapers. Check out the `env/.config/hypr/hyprpaper.conf` 
-config to make sure you have set proper wallpaper paths or none. You can also switch wallpapers
-very easily using `setbg` command, which is located in `env/.local/scripts/setbg`.
+This setup is using `swaybg` (**hyprpaper** is very buggy) for handling wallpapers. 
+By default (check `env/.config/hypr/hyprland.conf`) it loads `~/personal/wallpapers/default.jpg`
+so make shure you have that one, **wallpaper files are not included in this setup**. 
+You can also switch wallpapers very easily using `setbg` command, 
+which is located in `env/.local/scripts/setbg`.
 It opens a `fzf` menu where you can select wallpaper from `$HOME/personal/wallpapers/` directory.
+
+> [!IMPORTANT]
+> This setup looks for wallpapers in `~/personal/wallpapers/` directory, which does not come included.
+> You need to create it yourself or change the configs.
 
 ### Greeter SDDM
 If you are using SDDM as your greeter, you may also want to make it nice looking.
