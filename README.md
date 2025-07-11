@@ -1,14 +1,14 @@
 # Dev environment setup
 
-This is my personal environment setup for **Arch Linux**, btw.
-Using Wayland with Hyprland and **NeoVim** ofc.
+This is my personal environment setup for **Arch Linux** (btw).
+Using Wayland with Hyprland and **NeoVim**.
 
 
 <p align="center">
 <img src="images/handshake.png" alt="arch-neovim-handshake" style="height=200">
 </p>
 
-## Usage
+# Usage
 
 This repo should be located as such: `$HOME/personal/dev`.
 ```
@@ -47,6 +47,8 @@ It opens a `fzf` menu where you can select wallpaper from `$HOME/personal/wallpa
 If you are using SDDM as your greeter, you may also want to make it nice looking.
 I can recommend [sddm-astronaut-theme](https://github.com/Keyitdev/sddm-astronaut-theme).
 *With bigger display resolution you may need to tinker a little bit with font size in cofing*
+
+---
 
 ### Credit
 Inspired by ThePrimeagen's [dev](https://github.com/ThePrimeagen/dev)
