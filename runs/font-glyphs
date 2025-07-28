@@ -1,0 +1,8 @@
+#!usr/bin/env bash
+
+# Install some fonts that help with displaying emojis/glyphs in webbrowser
+sudo pacman -S -y noto-fonts noto-fonts-cjk noto-fonts-emoji
+
+# Update
+fc-cache
+
