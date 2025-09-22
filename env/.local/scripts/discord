@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+# used flatpak to install discord if you wonder, 
+# on web-browser screen sharing didn't work, here it works
+nohup flatpak run com.discordapp.Discord &
+disown
+
+echo "Discord (flatpak) process started"
