@@ -4,3 +4,4 @@ sudo pacman -Sy unzip mandoc
 sudo pacman -Sy strawberry # audio inspector
 sudo pacman -Sy imagemagick # converting files like .jpg -> .png
 sudo pacman -Sy gthumb # preview images
+sudo pacman -Sy thunar # better file browser
