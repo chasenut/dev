@@ -103,4 +103,7 @@ source $ZSH/oh-my-zsh.sh
 alias vi="nvim"
 alias vim="nvim"
 
+# Ctrl-d closes shell, idk why, this fixes it
+setopt ignoreeof
+
 source ~/.zsh_profile
