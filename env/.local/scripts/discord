@@ -2,7 +2,7 @@
 
 # used flatpak to install discord if you wonder, 
 # on web-browser screen sharing didn't work, here it works
-nohup flatpak run com.discordapp.Discord &
+nohup flatpak run com.discordapp.Discord >/dev/null 2>&1 &
 disown
 
 echo "Discord (flatpak) process started"

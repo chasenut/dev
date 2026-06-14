@@ -3,11 +3,11 @@
 #  Ctrl+Shift+,  #
 ##################
 
-font-size = 16
+font-size = 18
 
 theme = rose-pine-moon
 background = 000000
-background-opacity = 0.85
+background-opacity = 1.0
 background-blur = false
 confirm-close-surface=false
 
